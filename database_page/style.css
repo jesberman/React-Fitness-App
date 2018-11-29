@@ -1,0 +1,12 @@
+.row {
+
+    /* width: 500px;
+    height: 100px; */
+    background-color: rgb(35, 84, 190);
+    color: white;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+}
