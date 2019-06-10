@@ -68,3 +68,15 @@ app.post("/submit", function (req, res) {
 app.listen(3000, function () {
   console.log("App running on port 3000!");
 })
+
+
+
+//added on advice of https://medium.freecodecamp.org/i-built-this-now-what-how-to-deploy-a-react-app-on-a-digitalocean-droplet-662de0fe3f48
+app.use( express.static( `${__dirname}/../build` ) );
+
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
+
+
