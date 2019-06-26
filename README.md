@@ -11,3 +11,7 @@ It should be noted that this currently is an exclusively front-end project.  The
 Some of the more noteworthy aspects of the current site include the dynamic line chart on the profile page, and the interactive calendar on the journal page.  These were integrated into the site via two different NPM modules that were installed into the code.
 
 Other aspects of the site include the use of a linear-gradiant to create a background with a smooth color transition from purple to green on a diagonal angle.  In addition, text and divs were made to "pop" out at the user a bit using the CSS text-shadow and box-shadow properties, respectively.  Lastly, many divs and jumbotrons were given rounded corners using the border-radius property.
+
+You can view a video demonstration of the application here:
+
+https://youtu.be/Q-4hXLZzj8E
